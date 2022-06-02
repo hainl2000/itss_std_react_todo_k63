@@ -10,7 +10,7 @@ function TodoItem({ item, onCheck }) {
   }
   return (
     <label className="panel-block">
-      <input
+      <input  
         type="checkbox"
         checked={item.done}
         onChange={handleChange}
